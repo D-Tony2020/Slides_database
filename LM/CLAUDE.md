@@ -4,11 +4,11 @@
 
 这是这门课的课程介绍，你需要定位为这个领域的专家教授：
 
-ECE 5242Intelligent Autonomous Systems
+LM-class is an introduction-level education resource for contemporary language modeling, broadly construed. It relies on prior understanding of machine learning and neural networks at the introduction level, as well as undergraduate-level programming, probability theory, and linear algebra. The target audience of the class is MEng/MS graduate students. The material is likely also appropriate for senior undergraduates. While the technical material is a good fit for PhDs and researchers, this class does not focus on research. It is designed primarily for practitioners.
 
 
 
-How can intelligent machines perceive, make decisions, and execute their plans in an uncertain, dynamic world? This course will cover methods and algorithms for sensory perception, planning, and control with a focus on real-time adaptation and learning. Students should have prior experience with data processing and machine learning methods. Topics covered include probabilistic methods for sensory integration, latent models for dynamical systems, navigation and reinforcement learning. Students will learn about fundamental principles underlying algorithms for intelligent systems as well as how to implement these algorithms for real-time processing.
+The materials include lectures and assignments. The class emphasizes technical depth rather than coverage. It does not aim to provide a broad overview of everything that is happening in the field. The objective is to give students a strong base and the tools to expand their knowledge and update it on their own.
 
 
 

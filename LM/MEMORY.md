@@ -1,52 +1,28 @@
 Purpose \& context
 
-D. Tony is a student in ECE 5242 (Intelligent Autonomous Systems), working through a technically demanding graduate-level course sequence. The primary use of Claude in this context is academic support — receiving comprehensive lecture explanations and exam/quiz preparation assistance. The course covers probabilistic models, signal processing, and autonomous systems, with a strong emphasis on mathematical foundations and their practical applications.
+D. Tony is studying Natural Language Processing through Cornell CS 5740, working systematically through course lectures to build deep understanding of foundational and modern NLP concepts. The focus is on comprehensive technical mastery rather than surface-level familiarity, with particular emphasis on understanding the mathematical foundations and evolutionary progression from classical to neural approaches in language modeling.
+
+The learning approach prioritizes structured, hierarchical understanding - starting with high-level overviews, then progressing through detailed explanations, and finally examining specific technical components. D. Tony demonstrates strong analytical thinking by questioning underlying mathematical assumptions rather than simply accepting formulas, indicating a goal of developing principled understanding of why techniques work, not just how they work.
 
 Current state
 
-D. Tony is actively progressing through the course lecture sequence, having covered:
+D. Tony is actively progressing through the CS 5740 curriculum, having covered fundamental topics including text classification and perceptrons (Lecture 2), n-gram language models with evaluation and smoothing techniques (Lecture 5), tokenization methods including BPE algorithms (Lecture 6), and neural language models culminating in Transformer architecture (Lecture 7). Recent work has also incorporated Stanford CS 231N content on RNNs to understand the bridge between traditional and modern architectures.
 
-
-
-Lectures 07–10: Kalman Filters → IMU sensors \& rotation representations → HMMs (Parts 1 \& 2) → Memory mechanisms (short-term memory, recurrent networks)
-
-
-
-Recent topics include the Baum-Welch/EM algorithm for HMMs, the forward-backward procedure, and the bridge between HMM forward variables and neuroscientific models of short-term memory (persistent neural firing, attractor dynamics, neural integrators).
-
-D. Tony has also used Claude for rapid quiz-answer assistance, with a specific workflow: photographing questions and receiving concise, numbered answers in both Chinese and English.
+The learning demonstrates clear conceptual progression: from basic classification and data management principles, through statistical language modeling challenges like sparsity and smoothing, to subword tokenization solutions, and finally to neural approaches that address fundamental limitations of count-based methods. Current focus centers on understanding attention mechanisms, self-attention mathematics, and the complete Transformer architecture.
 
 Key learnings \& principles
 
+Several core insights have emerged about the evolution of NLP techniques. The progression from count-based to neural methods addresses fundamental problems: n-gram models suffer from sparsity requiring complex smoothing, while neural approaches achieve natural smoothing through softmax normalization and embedding similarities. The Markov assumption in traditional models fails to capture long-distance dependencies that are crucial for natural language understanding.
 
+Mathematical rigor underlies effective model design - understanding why scaled dot-product attention uses √d\_k scaling (to prevent softmax saturation and gradient vanishing) exemplifies how theoretical foundations drive practical architectural choices. The development from uniform attention to adaptive query-key-value frameworks represents a key conceptual leap in allowing models to focus on relevant context dynamically.
 
-D. Tony has demonstrated engagement with conceptual bridges across topics (e.g., Kalman Filters vs. HMMs as instances of the same graphical model; α\_t(i) as compressed memory state).
-
-Clarifying questions have focused on mathematical notation (e.g., marginalization summations) and conceptual equivalences between models.
-
-
+Modern architectures solve multiple problems simultaneously: Transformers address both the sequential processing limitations of RNNs and the context window restrictions of feedforward networks, while techniques like residual connections and layer normalization ensure stable gradient flow during training.
 
 Approach \& patterns
 
+D. Tony consistently requests structured, multi-layered explanations that build from conceptual overviews to detailed technical analysis. The preferred learning sequence involves comprehensive summaries, systematic progression through material, and deep dives into specific mathematical or algorithmic components. This approach ensures both broad understanding and technical precision.
 
+Technical questions focus on understanding underlying assumptions and mathematical foundations rather than accepting formulas at face value. The learning style emphasizes connecting concepts across different approaches - understanding how RNNs bridge feedforward networks and Transformers, or how different smoothing techniques address the same fundamental sparsity problems in language modeling.
 
-Preferred explanation format: Comprehensive, structured lecture breakdowns — typically a high-level outline followed by detailed slide-by-slide or section-by-section analysis, delivered in Chinese.
-
-Quiz mode: Minimal, high-signal answers numbered by question, bilingual (Chinese + English), no filler text.
-
-Engagement style: Mostly receptive/listening, with occasional targeted clarifying questions on notation or conceptual connections.
-
-D. Tony initiates lecture explanations with brief prompts (e.g., "讲解。") and expects Claude to take the lead in structuring the content.
-
-
-
-Tools \& resources
-
-
-
-Course: ECE 5242 Intelligent Autonomous Systems (Cornell, based on email domain)
-
-PDF lecture slides (PowerPoint-exported) are the primary input material
-
-Key domain references encountered: Larry Rabiner's HMM tutorial; standard signal processing and probabilistic ML literature
+The educational methodology combines formal academic rigor with concrete examples and practical applications, ensuring both theoretical understanding and implementation awareness.
 
